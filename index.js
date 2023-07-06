@@ -16,6 +16,7 @@ const getEventData = function () {
       // entriamo qua se abbiamo ritornato res.json() dal .then() precedente
       console.log('EVENTS', events)
       // abbiamo gli eventi salvati!
+      //
     })
     .catch((err) => {
       console.log(err)
